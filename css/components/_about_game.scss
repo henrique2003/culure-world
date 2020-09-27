@@ -1,0 +1,126 @@
+@import "./bases";
+
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/bg-cronw.png);
+  padding: 40px 0;
+
+  .grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .content {
+      margin-top: 30px;
+      color: white;
+
+      h4 {
+        font-size: 27px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $light-green;
+        max-width: 300px;
+        font-weight: 400;
+      }
+
+      p {
+        margin-top: 30px;
+        margin-right: 30px;
+        display: block;
+        font-size: 20px;
+        font-family: "Poly", sans-serif;
+        line-height: 30px;
+        max-width: 400px;
+      }
+    }
+
+    .gif_game {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .big_trace {
+    background: $light-green;
+    max-width: 500px;
+    margin: 120px auto;
+    margin-bottom: 60px;
+    height: 1px;
+
+    @media (max-width: 650px) {
+      max-width: 300px;
+      margin: 80px auto;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 400px) {
+      max-width: 250px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    padding-top: 60px;
+    margin-top: -20px;
+  }
+
+  @media (max-width: 1100px) {
+    .grid {
+      margin: 0 50px;
+
+      .content {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      .content {
+        p {
+          font-size: 19px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+      margin: 0 70px;
+
+      .content {
+        text-align: center;
+
+        h4,
+        p {
+          margin: 0 auto;
+        }
+
+        p {
+          margin-top: 30px;
+          font-size: 19px;
+          line-height: 25px;
+          max-width: 600px;
+        }
+      }
+
+      .gif_game {
+        margin-top: 60px;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    p {
+      margin: 0 30px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .grid {
+      margin: 0 40px;
+    }
+  }
+}

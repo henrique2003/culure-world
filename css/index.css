@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.introduction {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/desenhado.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .introduction div {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px; }
+    .introduction div h3 {
+      color: white;
+      font-size: 100px;
+      font-weight: 400; }
+    .introduction div p {
+      color: #ffffffc9;
+      margin-top: 10px;
+      font-size: 28px;
+      font-family: "Poly", sans-serif; }
+    .introduction div a {
+      display: block;
+      margin: 0 auto;
+      margin-top: 60px;
+      color: white;
+      border: 2px solid white;
+      border-radius: 30px;
+      max-width: 150px;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 20px; }
+  @media (max-width: 800px) {
+    .introduction div {
+      margin: 0 70px; }
+      .introduction div h3 {
+        font-size: 80px; }
+      .introduction div p {
+        margin-top: 5px;
+        font-size: 26px; } }
+  @media (max-width: 720px) {
+    .introduction div {
+      margin: 0 50px;
+      padding-top: 250px; }
+      .introduction div h3 {
+        font-size: 60px;
+        line-height: 60px; }
+      .introduction div p {
+        font-size: 22px;
+        margin-top: 15px; }
+      .introduction div a {
+        margin-top: 60px;
+        max-width: 130px;
+        padding: 7px 20px;
+        font-size: 18px; } }
+  @media (max-width: 500px) {
+    .introduction div {
+      margin: 0 30px;
+      padding-top: 240px; }
+      .introduction div h3 {
+        font-size: 50px; }
+      .introduction div p {
+        font-size: 20px; } }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.how_to_play {
+  padding-top: 50px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/bg-cronw.png);
+  padding-bottom: 20px; }
+  .how_to_play h4 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 400; }
+  .how_to_play .trace {
+    max-width: 250px;
+    height: 2px;
+    margin: 20px auto;
+    background: #66e186; }
+  .how_to_play p {
+    color: white;
+    font-size: 22px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Poly", serif;
+    font-weight: 300; }
+  @media (max-width: 1300px) {
+    .how_to_play {
+      padding-top: 70px;
+      margin-top: -20px; } }
+  @media (max-width: 700px) {
+    .how_to_play p {
+      margin: 0 50px; } }
+  @media (max-width: 600px) {
+    .how_to_play p {
+      font-size: 20px; }
+    .how_to_play h4 {
+      font-size: 25px;
+      margin-bottom: 30px; } }
+  @media (max-width: 500px) {
+    .how_to_play p {
+      margin: 0 30px; } }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.trophys {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/bg-cronw.png);
+  padding: 50px 0; }
+  .trophys section {
+    display: flex;
+    justify-content: center; }
+    .trophys section div {
+      width: 160px;
+      height: 190px;
+      margin-top: 30px; }
+      .trophys section div:nth-child(2) {
+        width: 200px;
+        height: 230px;
+        margin-top: 0; }
+      .trophys section div img {
+        width: 100%;
+        height: 100%; }
+  @media (max-width: 1300px) {
+    .trophys {
+      padding: 40px 0;
+      padding-top: 60px;
+      margin-top: -20px; } }
+  @media (max-width: 500px) {
+    .trophys {
+      padding: 20px 0; }
+      .trophys section div {
+        display: none; }
+        .trophys section div:nth-child(2) {
+          display: block;
+          width: 160px;
+          height: 190px; } }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/bg-cronw.png);
+  padding: 40px 0; }
+  .about .grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .about .grid .content {
+      margin-top: 30px;
+      color: white; }
+      .about .grid .content h4 {
+        font-size: 27px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #66e186;
+        max-width: 300px;
+        font-weight: 400; }
+      .about .grid .content p {
+        margin-top: 30px;
+        margin-right: 30px;
+        display: block;
+        font-size: 20px;
+        font-family: "Poly", sans-serif;
+        line-height: 30px;
+        max-width: 400px; }
+    .about .grid .gif_game img {
+      width: 100%;
+      height: 100%; }
+  .about .big_trace {
+    background: #66e186;
+    max-width: 500px;
+    margin: 120px auto;
+    margin-bottom: 60px;
+    height: 1px; }
+    @media (max-width: 650px) {
+      .about .big_trace {
+        max-width: 300px;
+        margin: 80px auto;
+        margin-bottom: 20px; } }
+    @media (max-width: 400px) {
+      .about .big_trace {
+        max-width: 250px; } }
+  @media (max-width: 1300px) {
+    .about {
+      padding-top: 60px;
+      margin-top: -20px; } }
+  @media (max-width: 1100px) {
+    .about .grid {
+      margin: 0 50px; }
+      .about .grid .content {
+        margin-top: 10px; } }
+  @media (max-width: 900px) {
+    .about .grid .content p {
+      font-size: 19px;
+      line-height: 30px; } }
+  @media (max-width: 800px) {
+    .about .grid {
+      grid-template-columns: repeat(1, 1fr);
+      margin: 0 70px; }
+      .about .grid .content {
+        text-align: center; }
+        .about .grid .content h4,
+        .about .grid .content p {
+          margin: 0 auto; }
+        .about .grid .content p {
+          margin-top: 30px;
+          font-size: 19px;
+          line-height: 25px;
+          max-width: 600px; }
+      .about .grid .gif_game {
+        margin-top: 60px; } }
+  @media (max-width: 700px) {
+    .about p {
+      margin: 0 30px; } }
+  @media (max-width: 500px) {
+    .about .grid {
+      margin: 0 40px; } }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.comments {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/bg-cronw.png);
+  padding: 30px 0; }
+  .comments h4 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 400;
+    text-align: center; }
+  .comments .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto; }
+    .comments .grid .comment {
+      margin: 25px 30px;
+      margin-bottom: 10px; }
+      .comments .grid .comment .content .rectangle {
+        width: 100%;
+        background: #37d561;
+        padding: 15px 20px;
+        padding-bottom: 20px; }
+        .comments .grid .comment .content .rectangle p {
+          color: white;
+          font-size: 18px;
+          font-family: "Poly", sans-serif; }
+      .comments .grid .comment .content .square {
+        background: #37d561;
+        width: 30px;
+        height: 30px;
+        transform: rotate(-45deg);
+        margin-top: -15px;
+        margin-left: 25px; }
+      .comments .grid .comment .flex {
+        display: flex;
+        margin-top: 20px; }
+        .comments .grid .comment .flex .image_profile {
+          width: 65px;
+          height: 65px;
+          margin-left: 7px; }
+          .comments .grid .comment .flex .image_profile img {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%; }
+        .comments .grid .comment .flex p {
+          margin-left: 15px;
+          margin-top: 15px;
+          color: white;
+          font-size: 20px; }
+      .comments .grid .comment:nth-child(2) .rectangle {
+        padding-bottom: 65px; }
+      .comments .grid .comment:nth-child(3) .rectangle {
+        padding-bottom: 45px; }
+  @media (max-width: 1300px) {
+    .comments {
+      padding-top: 70px;
+      margin-top: -20px; }
+      .comments .grid {
+        margin: 0 50px; } }
+  @media (max-width: 900px) {
+    .comments .grid {
+      grid-template-columns: repeat(2, 1fr); }
+      .comments .grid .rectangle p {
+        font-size: 17px; }
+      .comments .grid .flex p {
+        font-size: 19px; } }
+  @media (max-width: 660px) {
+    .comments .grid {
+      grid-template-columns: repeat(1, 1fr);
+      margin: 0 40px; }
+      .comments .grid .rectangle p {
+        font-size: 16px; }
+      .comments .grid .flex p {
+        font-size: 18px; }
+    .comments .grid .comment {
+      margin-top: 60px;
+      margin-bottom: 10px; }
+      .comments .grid .comment .rectangle {
+        padding: 20px 25px;
+        padding-bottom: 20px; }
+      .comments .grid .comment:nth-child(1) {
+        margin-top: 30px; }
+      .comments .grid .comment:nth-child(2) .rectangle {
+        padding-bottom: 20px; }
+      .comments .grid .comment:nth-child(3) .rectangle {
+        padding-bottom: 20px; } }
+  @media (max-width: 480px) {
+    .comments .grid {
+      margin: 0; } }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.news {
+  padding: 100px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../images/bg-cronw.png); }
+  .news h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  .news p {
+    color: #66e186;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .news section input {
+    background: white;
+    color: #808080c8;
+    border-radius: 30px;
+    padding: 8px 20px;
+    border: none;
+    width: 450px;
+    margin: 0 auto;
+    font-size: 19px;
+    outline: none; }
+  .news section button {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    background: #37d561;
+    border: none;
+    padding: 4px 20px;
+    margin-left: -100px;
+    cursor: pointer;
+    transition: background 0.3s ease; }
+    .news section button:hover {
+      background: #2bcd56; }
+  @media (max-width: 1300px) {
+    .news {
+      padding-top: 70px;
+      margin-top: -20px; } }
+  @media (max-width: 550px) {
+    .news section {
+      margin: 0 40px; }
+      .news section input {
+        width: 100%;
+        font-size: 18px; }
+      .news section button {
+        font-size: 17px;
+        margin-left: -95px; }
+    .news h3 {
+      font-size: 28px; }
+    .news p {
+      font-size: 23px; } }
+  @media (max-width: 428px) {
+    .news section {
+      margin: 0 20px; }
+      .news section input {
+        width: 100%;
+        font-size: 16px; }
+      .news section button {
+        font-size: 17px;
+        padding: 3px 20px; } }
+
+/*# sourceMappingURL=index.css.map */
